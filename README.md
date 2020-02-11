@@ -11,12 +11,23 @@ A custom React Hook to search locally in array.
 ## Usage
 
 ``` 
-const { searchText,                                                  //value of search input
-setSearchText,                                                      //handler of search input
-searchedList                                                       //searched list (filtered by searchText value)
-} = useLocalSearch(list, listItem => listItem.name);              //search base on name of each item in list
+import React from "react";
+import useLocalSearh from "use-local-search";
 
-<input value={searchText} onChange={setSearchText} />
+const Example = ({ list }) => {
+  const {
+    searchText,                                            //value of search input
+    setSearchText,                                        //handler of search input
+    searchedList                                         //searched list (filtered by searchText value)
+  } = useLocalSearch(list, listItem => listItem.name);  //search base on name of each item in list
+
+  return (
+    <>
+      <input value={searchText} onChange={setSearchText} />
+      <List value={searchedList} />
+    </>
+  );
+};
 ```
 
 ## License
