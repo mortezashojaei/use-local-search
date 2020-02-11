@@ -1,3 +1,4 @@
+![Farmers Market Finder Demo](https://miro.medium.com/max/960/1*lW-KSDU2SxGp3uQ65YsXlg.gif)
 A custom React Hook to search locally in array.
 
 ## Install
