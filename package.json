@@ -1,22 +1,25 @@
 {
-  "name": "use-local-search",
-  "version": "1.0.1",
-  "description": "Custom React Hook to get search in array",
-  "license": "MIT",
-  "homepage": "https://github.com/mortezashojaei/use-local-search.git",
-  "repository": "https://github.com/mortezashojaei/use-local-search.git",
-  "main": "index.js",
-  "keywords": [
-    "React",
-    "Hooks",
-    "Custom Hooks",
-    "Saerch",
-    "react offline search",
-    "search offline",
-    "use-local-search",
-    "react search"
-  ],
-  "dependencies": {
-    "react": "^16.8.6"
-  }
+    "name": "use-local-search",
+    "version": "1.0.1",
+    "description": "Custom React Hook to get search in array",
+    "license": "MIT",
+    "homepage": "https://github.com/mortezashojaei/use-local-search.git",
+    "repository": "https://github.com/mortezashojaei/use-local-search.git",
+    "main": "index.js",
+    "keywords": [
+        "React",
+        "Hooks",
+        "Custom Hooks",
+        "Saerch",
+        "react offline search",
+        "search offline",
+        "use-local-search",
+        "react search"
+    ],
+    "dependencies": {
+        "react": "^16.8.6"
+    },
+    "publishConfig": {
+        "registry": "https://www.npmjs.com/package/use-local-search"
+    }
 }
