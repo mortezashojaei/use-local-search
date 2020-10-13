@@ -20,6 +20,6 @@
         "react": "^16.8.6"
     },
     "publishConfig": {
-        "registry": "https://www.npmjs.com/package/use-local-search"
-    }
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
